@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    color: azure;
+    font-family: "Barlow Condensed", serif;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 500px;
+    margin: 0;
+}
+
+
+button{
+    background-color: brown;
+    color: azure;
+    font-family: "Barlow Condensed", serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
